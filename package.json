@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "I am trying one more time to build the default project.",
   "main": "lib/index.js",
+  "type": "module",
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
