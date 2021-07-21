@@ -1,1 +1,1 @@
-export const Greeter = (name: string) => `Hello ${name}`;
+export const sum = (a: number, b: number) => a + b;
