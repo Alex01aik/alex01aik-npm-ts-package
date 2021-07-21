@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jest --config jest.config.json",
-    "lint": "tslint -p tsconfig.json",
+    "eslint": "tslint -p tsconfig.json",
     "eslint:fix": "eslint --fix 'src/**/*.ts'",
     "prettier": "prettier --write \"src/**/*.ts\"",
     "prettier:fix": "prettier --write 'src/**/*.ts'",
