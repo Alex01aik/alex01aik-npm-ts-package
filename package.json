@@ -4,10 +4,9 @@
   "description": "I am trying one more time to build the default project.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "type": "module",
   "scripts": {
-    "test": "jest --config jestconfig.json",
     "build": "tsc",
+    "test": "jest --config jestconfig.json",
     "lint": "tslint -p tsconfig.json",
     "eslint:fix": "eslint --fix 'src/**/*.ts'",
     "prettier": "prettier --write \"src/**/*.ts\"",
