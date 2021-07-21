@@ -6,12 +6,12 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
-    "coverage": "jest --collect-coverage",
     "build": "tsc",
     "lint": "tslint -p tsconfig.json",
     "eslint:fix": "eslint --fix 'src/**/*.ts'",
     "prettier": "prettier --write \"src/**/*.ts\"",
     "prettier:fix": "prettier --write 'src/**/*.ts'",
+    "coverage": "jest --collect-coverage",
     "prepare": "npm run build",
     "prepublishOnly": "npm run test && npm run coverage && npm run eslint"
   },
